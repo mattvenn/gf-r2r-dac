@@ -1,0 +1,42 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1781020114
+<< error_s >>
+rect 1700 5538 1890 5545
+rect 1700 5371 1706 5538
+rect 1883 5371 1890 5538
+rect 1700 5365 1890 5371
+<< pwell >>
+rect 1555 5250 2045 5680
+<< psubdiffcont >>
+rect 1700 5365 1890 5545
+<< metal1 >>
+rect -25 6015 350 6540
+rect 1000 6160 1375 6540
+rect 1000 6015 1425 6160
+rect 65 5135 295 6015
+rect 1155 5890 1425 6015
+rect 1155 5620 1905 5890
+rect 1155 5020 1425 5620
+rect 1635 5545 1905 5620
+rect 1635 5365 1700 5545
+rect 1890 5365 1905 5545
+rect 1635 5350 1905 5365
+rect -25 -35 1820 270
+use ppolyf_u_1k_X55DZ7  ppolyf_u_1k_X55DZ7_0
+timestamp 1781016634
+transform 1 0 188 0 1 2649
+box -218 -2679 218 2679
+use ppolyf_u_1k_X55DZ7  ppolyf_u_1k_X55DZ7_1
+timestamp 1781016634
+transform 1 0 1258 0 1 2609
+box -218 -2679 218 2679
+<< labels >>
+flabel metal1 -25 6015 350 6540 0 FreeSans 800 0 0 0 b0
+port 0 nsew
+flabel metal1 1000 6015 1375 6540 0 FreeSans 800 0 0 0 vgnd
+port 2 nsew
+flabel metal1 -25 -35 1820 270 0 FreeSans 800 0 0 0 out
+port 4 nsew
+<< end >>
