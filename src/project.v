@@ -16,12 +16,66 @@ module tt_um_gf_r2r_dac (
     input  wire       rst_n     // reset_n - low to reset
 );
     
-    challenge challenge
-    (
-        .VSS(VGND),
-        .VDD(VPWR),
-        .in(ua[0]),
-        .out(ua[1])
-    );
+    wire [7:0] r2r_out;
+
+    r2r_dac_control r2r_dac_control(
+        .clk(clk),                  // expect a 10M clock
+        .n_rst(rst_n),
+        .ext_data(uio_in[0]),       // if this is high, then DAC data comes from ui_in[7:0]
+        .load_divider(uio_in[1]),   // load value set on data to the clock divider
+        .data(ui_in),               // connect to ui_in[7:0]
+        .r2r_out(r2r_out),          // 8 bit out to the R2R DAC
+        .cnt_zero(uo_out[0]),
+        .VPWR(VDPWR),
+        .VGND(VGND)
+        );
+
+    r2r_simple r2r_simple(
+        .b0(r2r[0]),
+        .out(ua[0]),
+        .VGND(VGND)
+	);
+
+/*
+    r2r r2r(
+        .b0(r2r_3v3[0]),
+        .b1(r2r_3v3[1]),
+        .b2(r2r_3v3[2]),
+        .b3(r2r_3v3[3]),
+        .b4(r2r_3v3[4]),
+        .b5(r2r_3v3[5]),
+        .b6(r2r_3v3[6]),
+        .b7(r2r_3v3[7]),
+        .out(ua[0]),
+        .VGND(VGND)
+        );
+*/
+
+    // ties for the output enables
+    assign uo_out[1] = VGND;
+    assign uo_out[2] = VGND;
+    assign uo_out[3] = VGND;
+    assign uo_out[4] = VGND;
+    assign uo_out[5] = VGND;
+    assign uo_out[6] = VGND;
+    assign uo_out[7] = VGND;
+
+    assign uio_out[0] = VGND;
+    assign uio_out[1] = VGND;
+    assign uio_out[2] = VGND;
+    assign uio_out[3] = VGND;
+    assign uio_out[4] = VGND;
+    assign uio_out[5] = VGND;
+    assign uio_out[6] = VGND;
+    assign uio_out[7] = VGND;
+
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
+    assign uio_oe[2] = VGND;
+    assign uio_oe[3] = VGND;
+    assign uio_oe[4] = VGND;
+    assign uio_oe[5] = VGND;
+    assign uio_oe[6] = VGND;
+    assign uio_oe[7] = VGND;
 
 endmodule
