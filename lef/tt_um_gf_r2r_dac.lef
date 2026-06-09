@@ -418,7 +418,7 @@ MACRO tt_um_gf_r2r_dac
   END uo_out[7]
   PIN VGND
     DIRECTION INOUT ;
-    USE POWER ;
+    USE GROUND ;
     PORT
       LAYER Metal4 ;
         RECT 2.300 4.600 8.800 321.950 ;
