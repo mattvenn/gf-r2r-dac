@@ -10,6 +10,7 @@ MACRO tt_um_gf_r2r_dac
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 4.738000 ;
     PORT
       LAYER Metal4 ;
         RECT 331.090 324.360 331.390 325.360 ;
@@ -26,6 +27,7 @@ MACRO tt_um_gf_r2r_dac
   PIN rst_n
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 323.810 324.360 324.110 325.360 ;
@@ -98,6 +100,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 316.530 324.360 316.830 325.360 ;
@@ -106,6 +109,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 309.250 324.360 309.550 325.360 ;
@@ -114,6 +118,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 301.970 324.360 302.270 325.360 ;
@@ -122,6 +127,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 294.690 324.360 294.990 325.360 ;
@@ -130,6 +136,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 287.410 324.360 287.710 325.360 ;
@@ -138,6 +145,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 280.130 324.360 280.430 325.360 ;
@@ -146,6 +154,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 272.850 324.360 273.150 325.360 ;
@@ -154,6 +163,7 @@ MACRO tt_um_gf_r2r_dac
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 265.570 324.360 265.870 325.360 ;
@@ -162,6 +172,7 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 258.290 324.360 258.590 325.360 ;
@@ -170,6 +181,7 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
         RECT 251.010 324.360 251.310 325.360 ;
@@ -370,7 +382,8 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 835.315552 ;
+    ANTENNAGATEAREA 0.898000 ;
+    ANTENNADIFFAREA 0.897600 ;
     PORT
       LAYER Metal4 ;
         RECT 200.050 324.360 200.350 325.360 ;
@@ -461,9 +474,9 @@ MACRO tt_um_gf_r2r_dac
       LAYER Metal1 ;
         RECT 35.230 6.155 305.800 287.940 ;
       LAYER Metal2 ;
-        RECT 38.170 6.155 308.600 292.600 ;
+        RECT 38.170 6.155 308.600 300.750 ;
       LAYER Metal3 ;
-        RECT 4.920 6.155 313.200 315.525 ;
+        RECT 4.920 6.155 313.200 321.900 ;
       LAYER Metal4 ;
         RECT 8.800 324.060 32.310 324.360 ;
         RECT 33.210 324.060 39.590 324.360 ;
@@ -506,13 +519,13 @@ MACRO tt_um_gf_r2r_dac
         RECT 302.570 324.060 308.950 324.360 ;
         RECT 309.850 324.060 316.230 324.360 ;
         RECT 317.130 324.060 323.510 324.360 ;
-        RECT 324.410 324.060 328.700 324.360 ;
-        RECT 8.800 322.600 328.700 324.060 ;
+        RECT 324.410 324.060 330.790 324.360 ;
+        RECT 8.800 322.600 331.390 324.060 ;
         RECT 8.800 322.250 12.300 322.600 ;
         RECT 9.100 4.650 12.300 322.250 ;
-        RECT 19.400 4.650 328.700 322.600 ;
-        RECT 9.100 4.300 328.700 4.650 ;
-        RECT 8.800 1.300 328.700 4.300 ;
+        RECT 19.400 4.650 331.390 322.600 ;
+        RECT 9.100 4.300 331.390 4.650 ;
+        RECT 8.800 1.300 331.390 4.300 ;
         RECT 8.800 1.000 19.760 1.300 ;
         RECT 23.360 1.000 63.440 1.300 ;
         RECT 67.040 1.000 107.120 1.300 ;
@@ -521,6 +534,7 @@ MACRO tt_um_gf_r2r_dac
         RECT 198.080 1.000 238.160 1.300 ;
         RECT 241.760 1.000 281.840 1.300 ;
         RECT 285.440 1.000 325.520 1.300 ;
+        RECT 329.120 1.000 331.390 1.300 ;
   END
 END tt_um_gf_r2r_dac
 END LIBRARY

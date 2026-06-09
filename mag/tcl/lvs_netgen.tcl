@@ -10,5 +10,7 @@ readnet verilog ../src/project.v $source
 
 # add any spice files of your analog blocks:
 readnet spice ../xschem/simulation/$project.spice $source
+readnet spice ../xschem/simulation/r2r_simple.spice $source
+
 
 lvs "$layout $project" "$source $project" $::env(PDK_ROOT)/$::env(PDK)/libs.tech/netgen/$::env(PDK)_setup.tcl lvs.report -blackbox

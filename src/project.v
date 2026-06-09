@@ -31,7 +31,7 @@ module tt_um_gf_r2r_dac (
         );
 
     r2r_simple r2r_simple(
-        .b0(r2r[0]),
+        .b0(r2r[7]),
         .out(ua[0]),
         .VGND(VGND)
 	);
