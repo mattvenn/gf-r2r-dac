@@ -2,7 +2,7 @@
 
 // just a stub to keep the Tiny Tapeout tools happy
 
-module tt_um_magic_challenge (
+module tt_um_gf_r2r_dac (
     input  wire       VGND,
     input  wire       VPWR,
     input  wire [7:0] ui_in,    // Dedicated inputs
