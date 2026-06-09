@@ -52,6 +52,11 @@ pinout:
 
   # Analog pins - you can add more if you use them, up to 8
   ua[0]: "output"
+  ua[1]: ""
+  ua[2]: ""
+  ua[3]: ""
+  ua[4]: ""
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
