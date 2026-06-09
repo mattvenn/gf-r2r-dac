@@ -1,0 +1,6 @@
+** sch_path: /foss/designs/shuttle-ttgf26a/gf-r2r-dac/xschem/r2r_simple.sch
+.subckt r2r_simple VGND b0 out
+*.PININFO VGND:B b0:I out:O
+XR1 out b0 VGND ppolyf_u_1k r_width=2e-6 r_length=50e-6
+XR4 VGND out VGND ppolyf_u_1k r_width=2e-6 r_length=50e-6
+.ends
