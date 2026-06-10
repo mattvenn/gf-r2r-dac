@@ -46,6 +46,8 @@ set ::env(DIE_AREA) "0 0 150 150"
 
 set ::env(PL_BASIC_PLACEMENT) {0}
 set ::env(GRT_ALLOW_CONGESTION) "1"
+set ::env(DIODE_ON_PORTS) "in"
+
 
 set ::env(FP_IO_HLENGTH) 2
 set ::env(FP_IO_VLENGTH) 2
