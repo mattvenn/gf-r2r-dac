@@ -26,12 +26,12 @@ module tt_um_gf_r2r_dac (
         .data(ui_in),               // connect to ui_in[7:0]
         .r2r_out(r2r_out),          // 8 bit out to the R2R DAC
         .cnt_zero(uo_out[0]),
-        .VPWR(VDPWR),
+        .VPWR(VPWR),
         .VGND(VGND)
         );
 
     r2r_simple r2r_simple(
-        .b0(r2r[7]),
+        .b0(r2r_out[7]),
         .out(ua[0]),
         .VGND(VGND)
 	);
