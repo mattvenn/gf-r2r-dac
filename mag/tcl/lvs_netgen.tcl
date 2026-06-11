@@ -6,11 +6,9 @@ readnet spice $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_fd_sc_mcu7t5v0/spic
 readnet verilog ../src/project.v $source
 
 # add an GL verilog of any digital blocks:
-# readnet verilog ../verilog/gl/your_design.v $source
+readnet verilog ../verilog/gl/r2r_dac_control.pnl.v $source
 
 # add any spice files of your analog blocks:
-readnet spice ../xschem/simulation/$project.spice $source
 readnet spice ../xschem/simulation/r2r.spice $source
-
 
 lvs "$layout $project" "$source $project" $::env(PDK_ROOT)/$::env(PDK)/libs.tech/netgen/$::env(PDK)_setup.tcl lvs.report -blackbox

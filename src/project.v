@@ -30,26 +30,18 @@ module tt_um_gf_r2r_dac (
         .VSS(VGND)
         );
 
-    r2r_simple r2r_simple(
-        .b0(r2r_out[7]),
-        .out(ua[0]),
-        .VGND(VGND)
-	);
-
-/*
     r2r r2r(
-        .b0(r2r_3v3[0]),
-        .b1(r2r_3v3[1]),
-        .b2(r2r_3v3[2]),
-        .b3(r2r_3v3[3]),
-        .b4(r2r_3v3[4]),
-        .b5(r2r_3v3[5]),
-        .b6(r2r_3v3[6]),
-        .b7(r2r_3v3[7]),
+        .b0(r2r_out[0]),
+        .b1(r2r_out[1]),
+        .b2(r2r_out[2]),
+        .b3(r2r_out[3]),
+        .b4(r2r_out[4]),
+        .b5(r2r_out[5]),
+        .b6(r2r_out[6]),
+        .b7(r2r_out[7]),
         .out(ua[0]),
         .VGND(VGND)
         );
-*/
 
     // ties for the output enables
     assign uo_out[1] = VGND;
