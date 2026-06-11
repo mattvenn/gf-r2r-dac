@@ -4,7 +4,7 @@
 
 module tt_um_gf_r2r_dac (
     input  wire       VGND,
-    input  wire       VPWR,
+    input  wire       VDPWR,
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -26,8 +26,8 @@ module tt_um_gf_r2r_dac (
         .data(ui_in),               // connect to ui_in[7:0]
         .r2r_out(r2r_out),          // 8 bit out to the R2R DAC
         .cnt_zero(uo_out[0]),
-        .VPWR(VPWR),
-        .VGND(VGND)
+        .VDD(VDPWR),
+        .VSS(VGND)
         );
 
     r2r_simple r2r_simple(

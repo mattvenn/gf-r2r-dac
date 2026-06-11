@@ -39,6 +39,10 @@ N 2540 1260 2650 1260 {lab=out}
 N 2650 1260 2790 1260 {lab=out}
 N 2650 1090 2650 1130 {lab=b7}
 N 2650 1190 2650 1200 {lab=#net16}
+N 590 1540 760 1540 {lab=VGND}
+N 590 1600 760 1600 {lab=VGND}
+N 600 1570 600 1600 {lab=VGND}
+N 740 1570 740 1600 {lab=VGND}
 C {symbols/ppolyf_u_1k.sym} 430 1160 0 0 {name=R1
 W=2e-6
 L=50e-6
@@ -226,3 +230,17 @@ C {devices/lab_pin.sym} 2510 1280 1 1 {name=p35 sig_type=std_logic lab=VGND}
 C {devices/lab_pin.sym} 2630 1160 2 1 {name=p36 sig_type=std_logic lab=VGND}
 C {devices/lab_pin.sym} 2630 1230 2 1 {name=p37 sig_type=std_logic lab=VGND}
 C {devices/ipin.sym} 2650 1090 0 0 {name=p38 lab=b7}
+C {symbols/ppolyf_u_1k.sym} 760 1570 0 0 {name=R26
+W=2e-6
+L=50e-6
+model=ppolyf_u_1k
+spiceprefix=X
+m=1}
+C {symbols/ppolyf_u_1k.sym} 620 1570 0 0 {name=R27
+W=2e-6
+L=50e-6
+model=ppolyf_u_1k
+spiceprefix=X
+m=1}
+C {devices/lab_pin.sym} 590 1540 2 1 {name=p1 sig_type=std_logic lab=VGND}
+C {devices/lab_pin.sym} 590 1600 2 1 {name=p39 sig_type=std_logic lab=VGND}
