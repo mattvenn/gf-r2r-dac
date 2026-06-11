@@ -9,8 +9,23 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-An R2R DAC
+A simple 8 bit R2R DAC. Driven externally or by an digitally generated sine waveform generator.
 
 ## How to test
 
-Connect a scope to the output pin, apply clock, reset and you should see a triangle waveform on the output.
+### Drive externally
+
+Set the `external data` input high to provide the DAC with external data.
+
+Then drive the 8 inputs and observe the analog output.
+
+### Drive with internal sine wave generator
+
+Set the `external data` input low to enable the sine generator.
+A sine wave should be seen on the analog output. Everytime the sine counter is at 0, digital output 0 should go high for one clock.
+
+To change the frequency, set the inputs and then raise the 'load divider' input.
+
+## External hardware
+
+An oscilloscope to measure the output voltage on analog pin 0.
