@@ -6,8 +6,8 @@ S {}
 F {}
 E {}
 B 2 180 -100 980 300 {flags=graph
-y1=-0.50812758
-y2=4.7471295
+y1=-4.1e-09
+y2=3.3
 ypos1=0
 ypos2=2
 divy=5
@@ -50,8 +50,8 @@ color="4 6"
 node="b6
 b7"}
 B 2 180 400 980 800 {flags=graph
-y1=1.9e-05
-y2=1.8
+y1=-6.6e-06
+y2=3.3
 ypos1=0
 ypos2=2
 divy=5
@@ -139,6 +139,15 @@ N -520 -20 -490 -20 {lab=b4}
 N -520 0 -490 0 {lab=b5}
 N -520 20 -490 20 {lab=b6}
 N -520 40 -490 40 {lab=b7}
+N -520 130 -490 130 {lab=b0}
+N -520 150 -490 150 {lab=b1}
+N -190 130 -100 130 {lab=out2}
+N -520 170 -490 170 {lab=b2}
+N -520 190 -490 190 {lab=b3}
+N -520 210 -490 210 {lab=b4}
+N -520 230 -490 230 {lab=b5}
+N -520 250 -490 250 {lab=b6}
+N -520 270 -490 270 {lab=b7}
 C {devices/code.sym} -470 690 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -218,3 +227,28 @@ C {devices/lab_pin.sym} -520 0 0 0 {name=p11 sig_type=std_logic lab=b5}
 C {devices/lab_pin.sym} -520 20 0 0 {name=p12 sig_type=std_logic lab=b6
 }
 C {devices/lab_pin.sym} -520 40 0 0 {name=p13 sig_type=std_logic lab=b7}
+C {devices/gnd.sym} -190 150 0 0 {name=l7 lab=GND}
+C {devices/lab_pin.sym} -520 130 0 0 {name=p20 sig_type=std_logic lab=b0
+}
+C {devices/lab_pin.sym} -520 150 0 0 {name=p21 sig_type=std_logic lab=b1}
+C {devices/lab_pin.sym} -100 130 2 0 {name=p22 sig_type=std_logic lab=out2}
+C {r2r.sym} -340 200 0 0 {name=x2
+schematic=r2r_parax.sim
+
+spice_sym_def="tcleval(.include [file normalize ../mag/r2r.sim.spice])"
+
+tclcommand="textwindow [file normalize ../mag/r2r.sim.spice]"}
+C {devices/lab_pin.sym} -520 170 0 0 {name=p23 sig_type=std_logic lab=b2
+}
+C {devices/lab_pin.sym} -520 190 0 0 {name=p24 sig_type=std_logic lab=b3
+
+
+ 
+
+}
+C {devices/lab_pin.sym} -520 210 0 0 {name=p25 sig_type=std_logic lab=b4
+}
+C {devices/lab_pin.sym} -520 230 0 0 {name=p26 sig_type=std_logic lab=b5}
+C {devices/lab_pin.sym} -520 250 0 0 {name=p27 sig_type=std_logic lab=b6
+}
+C {devices/lab_pin.sym} -520 270 0 0 {name=p28 sig_type=std_logic lab=b7}
