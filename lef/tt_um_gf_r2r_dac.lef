@@ -250,7 +250,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 83.570 324.360 83.870 325.360 ;
@@ -259,7 +258,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 76.290 324.360 76.590 325.360 ;
@@ -268,7 +266,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 69.010 324.360 69.310 325.360 ;
@@ -277,7 +274,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 61.730 324.360 62.030 325.360 ;
@@ -286,7 +282,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 54.450 324.360 54.750 325.360 ;
@@ -295,7 +290,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 47.170 324.360 47.470 325.360 ;
@@ -304,7 +298,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 39.890 324.360 40.190 325.360 ;
@@ -313,7 +306,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_oe[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 32.610 324.360 32.910 325.360 ;
@@ -322,7 +314,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 141.810 324.360 142.110 325.360 ;
@@ -331,7 +322,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 134.530 324.360 134.830 325.360 ;
@@ -340,7 +330,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 127.250 324.360 127.550 325.360 ;
@@ -349,7 +338,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 119.970 324.360 120.270 325.360 ;
@@ -358,7 +346,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 112.690 324.360 112.990 325.360 ;
@@ -367,7 +354,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 105.410 324.360 105.710 325.360 ;
@@ -376,7 +362,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 98.130 324.360 98.430 325.360 ;
@@ -385,7 +370,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uio_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 90.850 324.360 91.150 325.360 ;
@@ -404,7 +388,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 192.770 324.360 193.070 325.360 ;
@@ -413,7 +396,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 185.490 324.360 185.790 325.360 ;
@@ -422,7 +404,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 178.210 324.360 178.510 325.360 ;
@@ -431,7 +412,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 170.930 324.360 171.230 325.360 ;
@@ -440,7 +420,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 163.650 324.360 163.950 325.360 ;
@@ -449,7 +428,6 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 156.370 324.360 156.670 325.360 ;
@@ -458,20 +436,11 @@ MACRO tt_um_gf_r2r_dac
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 417.784454 ;
     PORT
       LAYER Metal4 ;
         RECT 149.090 324.360 149.390 325.360 ;
     END
   END uo_out[7]
-  PIN VGND
-    DIRECTION INOUT ;
-    USE GROUND ;
-    PORT
-      LAYER Metal4 ;
-        RECT 2.300 4.600 3.000 321.950 ;
-    END
-  END VGND
   PIN VDPWR
     DIRECTION INOUT ;
     USE POWER ;
@@ -480,6 +449,14 @@ MACRO tt_um_gf_r2r_dac
         RECT 12.600 4.950 19.100 322.300 ;
     END
   END VDPWR
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER Metal4 ;
+        RECT 2.000 5.000 8.500 322.350 ;
+    END
+  END VGND
   OBS
       LAYER Nwell ;
         RECT 34.800 69.750 292.600 288.070 ;
@@ -490,7 +467,7 @@ MACRO tt_um_gf_r2r_dac
       LAYER Metal3 ;
         RECT 2.550 28.200 296.600 321.900 ;
       LAYER Metal4 ;
-        RECT 3.000 324.060 32.310 324.360 ;
+        RECT 8.500 324.060 32.310 324.360 ;
         RECT 33.210 324.060 39.590 324.360 ;
         RECT 40.490 324.060 46.870 324.360 ;
         RECT 47.770 324.060 54.150 324.360 ;
@@ -532,13 +509,13 @@ MACRO tt_um_gf_r2r_dac
         RECT 309.850 324.060 316.230 324.360 ;
         RECT 317.130 324.060 323.510 324.360 ;
         RECT 324.410 324.060 330.790 324.360 ;
-        RECT 3.000 322.600 331.390 324.060 ;
-        RECT 3.000 322.250 12.300 322.600 ;
-        RECT 3.300 4.650 12.300 322.250 ;
+        RECT 8.500 322.650 331.390 324.060 ;
+        RECT 8.800 322.600 331.390 322.650 ;
+        RECT 8.800 4.700 12.300 322.600 ;
+        RECT 8.500 4.650 12.300 4.700 ;
         RECT 19.400 4.650 331.390 322.600 ;
-        RECT 3.300 4.300 331.390 4.650 ;
-        RECT 3.000 1.300 331.390 4.300 ;
-        RECT 3.000 1.000 19.760 1.300 ;
+        RECT 8.500 1.300 331.390 4.650 ;
+        RECT 8.500 1.000 19.760 1.300 ;
         RECT 23.360 1.000 63.440 1.300 ;
         RECT 67.040 1.000 107.120 1.300 ;
         RECT 110.720 1.000 150.800 1.300 ;
