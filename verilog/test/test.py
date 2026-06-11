@@ -45,7 +45,7 @@ async def test(dut):
         dut.data.value = i
         await ClockCycles(dut.clk, 1)
         if i > 0:
-            assert dut.r2r_out == i - 1
+            assert dut.r2r_out.value == i - 1
 
     # test internal generated sine
     dut._log.info("starting internal sine test")
